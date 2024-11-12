@@ -10,19 +10,19 @@ fwrite($arquivo, "$frase2\n");
 fwrite($arquivo, "$frase3\n");
 fclose($arquivo);
 
-echo "Arquivo salvo com sucesso\n";
+echo "Arquivo salvo com sucesso <br>";
 
 $arquivo = fopen("arquivo.txt", "r"); //USE O "@" para que o erro seja omitido para o usuario
 
 if ($arquivo) {
-    echo "ABRIU CABEÇA DE TANAJURA <br>";
+    echo "ARQUIVO ABRIU <br>";
 } else {
-    echo "NAO ABRIU CABEÇA DE LAMPADA  <br>"; //nao vai abrir pois nao colocamos nenhum arqivo.txt real
+    echo " ARQUIVO NÃO ABRIU <br>"; //nao vai abrir pois nao colocamos nenhum arqivo.txt real
 }
 
 while (!feof($arquivo)) { //"!" serve para que o programa leia o aqruivo ate o final
     $linha = fgets($arquivo);
-    echo $linha . "<br>";
+    echo "$linha <br>";
 }
 
 fclose($arquivo);
