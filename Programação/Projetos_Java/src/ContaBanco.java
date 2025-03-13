@@ -28,7 +28,7 @@ class ContaBancaria {
 
 // Subclasse ContaCorrente
 class ContaCorrente extends ContaBancaria {
-    private double taxaManutencao;
+    private final double taxaManutencao;
 
     public ContaCorrente(String titular, double saldoInicial, double taxaManutencao) {
         super(titular, saldoInicial);
@@ -43,7 +43,7 @@ class ContaCorrente extends ContaBancaria {
 
 // Subclasse ContaPoupanca
 class ContaPoupanca extends ContaBancaria {
-    private double taxaRendimento;
+    private final double taxaRendimento;
 
     public ContaPoupanca(String titular, double saldoInicial, double taxaRendimento) {
         super(titular, saldoInicial);
