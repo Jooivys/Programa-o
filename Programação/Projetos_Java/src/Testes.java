@@ -1,9 +1,9 @@
 import java.util.Scanner;
  class Aluno{
-     public static String nome;  // Uso de static para
-     public static double AV1;
-     public static double AV2;
-     public static double CalcularMedia(){
+     protected static String nome;  // Uso de static para
+     protected static double AV1;
+     protected static double AV2;
+     protected static double CalcularMedia(){
          return (AV1 + AV2 ) / 2;
      }
  }
