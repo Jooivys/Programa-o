@@ -1,8 +1,8 @@
 class Carro: #classe mattriz
     def __init__(self, modelo,marca,cor) -> None: #'__init__' definiçoes da superclasse ou classe matriz
-        self.modelo =modelo
-        self.marca=marca
-        self.cor=cor
+        self.modelo = modelo
+        self.marca = marca
+        self.cor = cor
 
     def acelerar (self): #def
         print(f"{self.modelo} atingiu um poste")
