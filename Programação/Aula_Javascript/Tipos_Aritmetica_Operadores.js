@@ -1,5 +1,7 @@
 var nome = "Ivys" // String
 var idade = 20 // Number
+var float = 2.0 // Float
+var double = 2.0 // Double  
 var possuiFaculdade = true // Boolean
 
 var soma = 2 + 2
