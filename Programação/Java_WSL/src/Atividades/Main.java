@@ -1,4 +1,4 @@
-package Atividades.testes;
+package Atividades;
 
 public class Main {
     public static void main(String[] args) {

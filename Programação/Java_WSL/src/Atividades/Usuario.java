@@ -1,4 +1,4 @@
-package Atividades.testes;
+package Atividades;
 
 class Usuario {
     private String login;
