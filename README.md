@@ -23,6 +23,7 @@ O principal objetivo deste repositório é documentar meu progresso e servir com
 ## 🤝 Contribuições
 
 Este é um projeto de aprendizado pessoal, mas sugestões e correções são sempre bem-vindas. Se encontrar algum erro ou tiver uma ideia para melhorar o código, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
+Alguns códigos são da época que eu ainda não sabia nada de programação, então terá bastantes comentários em cada linha de código
 
 ---
 *Happy coding!*
